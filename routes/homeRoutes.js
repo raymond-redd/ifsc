@@ -24,7 +24,7 @@ route.post("/search", async(req, res)=>{
                 });
                 console.log(details);
             }else{
-                console.log(`error`);
+                res.render("error")
             }
         });
         

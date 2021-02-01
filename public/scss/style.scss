@@ -3,15 +3,28 @@
         input, button{
             border-radius: 0;
         }
-    }
+    };
     table{
         td{
             color: #ffffff;
         }
-    }
+    };
     span{
         color: #adadc7;
         font-size: 1.3rem!important;
         font-family: 'Monospace';
+    };
+    a{
+        color: #adadc7;
+        font-size: 1.3rem!important;
+        text-decoration: none;
+    }
+};
+footer{
+    a{
+        color: #adadc7;
+    };
+    a:hover{
+        color: #adadc7;
     }
 }
