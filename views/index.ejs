@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+
+    <!-- Local CSS -->
+    <link rel="stylesheet" href="/css/style.css">
+
+
+    <title>Hello, world!</title>
+  </head>
+  <body>
+    <section id="main-body" class="bg-dark text-light py-5 vh-100">
+      <div class="container d-flex align-items-center justify-content-center h-100">
+        <div>
+          <form action="/search" method="POST" name="search" class="form-group">
+          <input type="text" class="form-control form-control-lg my-2" name="ifsc" id="ifsc" placeholder="IFSC Code" required>
+            <button class="btn btn-primary btn-lg btn-block my-2">Search</button>
+        </form>
+        </div>
+      </div>
+    </section>
+    
+  </body>
+</html>

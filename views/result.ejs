@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+
+    <!-- Local CSS -->
+    <link rel="stylesheet" href="/css/style.css">
+
+
+    <title>Hello, world!</title>
+  </head>
+  <body>
+    <section id="main-body" class="bg-dark text-light py-5 vh-100">
+      <div class="container d-flex align-items-center justify-content-center h-100">
+        <div>
+            <table class="table table-bordered">
+                <h4>Avaiable data for <span><%=data.IFSC%></span></h4>
+                <tbody>
+                  <tr>
+                    <td>Bank</td>
+                    <td><span><%=data.BANK%></span></td>
+                  </tr>
+                  <tr>
+                    <td>Branch</td>
+                    <td><span><%=data.BRANCH%></span></td>
+                  </tr>
+                  <tr>
+                    <td>IFSC</td>
+                    <td><span><%=data.IFSC%></span></td>
+                  </tr>
+                  <tr>
+                    <td>MICR</td>
+                    <td><span><%=data.MICR%></span></td>
+                  </tr>
+                  <tr>
+                    <td>Address</td>
+                    <td><span><%=data.ADDRESS%></span></td>
+                  </tr>
+                  <tr>
+                    <td>Bank</td>
+                    <td><span><%=data.DISTRICT%></span></td>
+                  </tr>
+                  <tr>
+                    <td>Bank</td>
+                    <td><span><%=data.STATE%></span></td>
+                  </tr>
+                  <tr>
+                    <td>Contact</td>
+                    <td><span><%=data.CONTACT%></span></td>
+                  </tr>
+                </tbody>
+              </table>
+        </div>
+      </div>
+    </section>
+    
+  </body>
+</html>
